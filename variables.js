@@ -46,4 +46,11 @@ person.age = 32;
 // console.log(person)
 
 const numbers = [1, 2, 3, 4, 5];
+numbers.push(6); // this is perfectly fine
+// constant variables can be mutated
+// they just can't be re-assigned a new value
+
 console.log(numbers);
+
+// use const type unless you need to explicitly
+// change the value of a variable in a conditional
